@@ -1,0 +1,95 @@
+﻿{
+  "domain": "https://upload.wikimedia.org/wikipedia/commons/thumb",
+  "state": [
+    {
+      "id": 0,
+      "name": "TamilNadu",
+      "imageUrl": "/8/81/TamilNadu_Logo.svg/200px-TamilNadu_Logo.svg.png",
+      "capital": "Chennai"
+    },
+    {
+      "id": 1,
+      "name": "Karnataka",
+      "imageUrl": "/a/aa/Seal_of_Karnataka.svg/200px-Seal_of_Karnataka.svg.png",
+      "capital": "Bangalore"
+    },
+    {
+      "id": 2,
+      "name": "West Bengal",
+      "imageUrl": "/d/d5/Emblem_of_West_Bengal.svg/199px-Emblem_of_West_Bengal.svg.png",
+      "capital": "Kolkata"
+    },
+    {
+      "id": 3,
+      "name": "Kerala",
+      "imageUrl": "/b/b7/Flag_of_Kerala.png/200px-Flag_of_Kerala.png",
+      "capital": "Thiruvananthapuram"
+    },
+    {
+      "id": 4,
+      "name": "Goa",
+      "imageUrl": "/d/d7/Goa_government_banner.png/200px-Goa_government_banner.png",
+      "capital": "Panaji"
+    },
+    {
+      "id": 5,
+      "name": "Jharkhand",
+      "imageUrl": "/3/3c/Jharkhand_Rajakiya_Chihna.jpg/200px-Jharkhand_Rajakiya_Chihna.jpg",
+      "capital": "Ranchi"
+    },
+    {
+      "id": 6,
+      "name": "Maharashtra",
+      "imageUrl": "/2/26/Seal_of_Maharashtra.png/200px-Seal_of_Maharashtra.png",
+      "capital": "Mumbai"
+    },
+    {
+      "id": 7,
+      "name": "Odisha",
+      "imageUrl": "/a/a8/Orissa_Flag%28INDIA%29.png/200px-Orissa_Flag%28INDIA%29.png",
+      "hotSpot": "Bhubaneswar"
+    },
+    {
+      "id": 8,
+      "name": "Punjab",
+      "imageUrl": "/5/54/Emblem-Punjab-Protocol-Manual-page98-appendix12.svg/200px-Emblem-Punjab-Protocol-Manual-page98-appendix12.svg.png",
+      "capital": "Chandigarh"
+    },
+    {
+      "id": 9,
+      "name": "Rajasthan",
+      "imageUrl": "/1/1e/Emblem_Rajasthan.png/200px-Emblem_Rajasthan.png",
+      "capital": "Jaipur"
+    },
+    {
+      "id": 10,
+      "name": "Meghalaya",
+      "imageUrl": "/5/59/Seal_of_Meghalaya.svg/200px-Seal_of_Meghalaya.svg.png",
+      "capital": "Shillong"
+    },
+    {
+      "id": 11,
+      "name": "Gujarat",
+      "imageUrl": "/a/a6/Government_Of_Gujarat_Seal_In_All_Languages.svg/200px-Government_Of_Gujarat_Seal_In_All_Languages.svg.png",
+      "capital": "Gandhinagar"
+    },
+    {
+      "id": 12,
+      "name": "Bihar",
+      "imageUrl": "/e/e9/Seal_of_Bihar.svg/200px-Seal_of_Bihar.svg.png",
+      "capital": "Patna"
+    },
+    {
+      "id": 13,
+      "name": "Chhattisgarh",
+      "imageUrl": "/5/5b/..Chhattisgarh_Flag%28INDIA%29.png/200px-..Chhattisgarh_Flag%28INDIA%29.png",
+      "capital": "Raipur"
+    },
+    {
+      "id": 14,
+      "name": "Assam",
+      "imageUrl": "/0/0e/Seal_of_Assam.svg/200px-Seal_of_Assam.svg.png",
+      "capital": "Dispur"
+    }
+  ]
+}
