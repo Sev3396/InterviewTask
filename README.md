@@ -1,15 +1,15 @@
 UseCase:
 
-  Create an Android App that displays the Master list of states and capitals along with image in the landing Page.
-  On any item click event, it showing display the individual content in a new screen.
+    Create an Android App that displays the Master list of states and capitals along with image in the landing Page.
+    On any item click event, it showing display the individual content in a new screen.
   
  Technical Stack:
  
-  Dev Language: Kotlin
-  Architecture : MVVM
-  Dependancies : RxJava,Retrofit,Picasso,Navigation Graph,LiveData
-  Unit Test : JUint, Mockito
-  Dependency Injection : Dagger 2
+    Dev Language: Kotlin
+    Architecture : MVVM
+    Dependancies : RxJava,Retrofit,Picasso,Navigation Graph,LiveData
+    Unit Test : JUint, Mockito
+    Dependency Injection : Dagger 2
   
   Techinical Specification:
   
