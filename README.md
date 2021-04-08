@@ -26,3 +26,7 @@ UseCase:
      1. Clone the App and create a new branch out of your name.
      2. Push all your changes to your own branch.
      3. Any modification done by the candidate in the master branch would be considered in a serious note.
+
+TimeLine:
+
+    Entire App should be submitted along with the apk in 2 days from when you start working.
