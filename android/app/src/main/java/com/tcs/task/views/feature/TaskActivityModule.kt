@@ -12,4 +12,9 @@ class TaskActivityModule {
             : TaskViewModel {
         return TaskViewModel(dataManager, schedulerProvider)
     }
+
+    @Provides
+    fun provideStateAdapter(dataManager: DataManager): StateAdapter {
+        return StateAdapter(dataManager)
+    }
 }

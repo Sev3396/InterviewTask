@@ -10,7 +10,7 @@ import com.jet2.blog.utils.NetworkUtils
 import dagger.android.support.DaggerAppCompatActivity
 import java.util.ArrayList
 
-abstract class BaseActivity<V : BaseViewModel<*>> : DaggerAppCompatActivity() {
+abstract class BaseActivity<V : BaseViewModel<*>> : DaggerAppCompatActivity(), BaseFragment.Callback {
 
     private val mViewModel: V? = null
 
@@ -74,6 +74,10 @@ abstract class BaseActivity<V : BaseViewModel<*>> : DaggerAppCompatActivity() {
     override fun onResume() {
         super.onResume()
     }
+
+    override fun onFragmentAttached() {}
+
+    override fun onFragmentDetached(tag: String?) {}
 
     /**
      * Function: showToast will show message in Toast

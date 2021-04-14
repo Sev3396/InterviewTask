@@ -1,6 +1,7 @@
 package com.tcs.task.di.module
 
 
+import com.tcs.task.views.feature.FragmentProvider
 import com.tcs.task.views.feature.TaskActivity
 import com.tcs.task.views.feature.TaskActivityModule
 import dagger.Module
@@ -12,6 +13,6 @@ import dagger.android.ContributesAndroidInjector
 @Module
 abstract class ActivityModule {
 
-    @ContributesAndroidInjector(modules = [TaskActivityModule::class])
+    @ContributesAndroidInjector(modules = [TaskActivityModule::class, FragmentProvider::class])
     internal abstract fun bindBlogActivity(): TaskActivity
 }

@@ -2,7 +2,7 @@ package com.tcs.task.di.module
 
 import android.app.Application
 import android.content.Context
-import com.squareup.picasso.BuildConfig
+import com.tcs.task.BuildConfig
 import com.tcs.task.data.manager.AppDataManager
 import com.tcs.task.data.manager.DataManager
 import com.tcs.task.rx.AppSchedulerProvider

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/home_navigation"
+    app:startDestination="@id/stateListFragment">
+
+    <fragment
+        android:id="@+id/stateListFragment"
+        android:name="com.tcs.task.views.feature.StateListingFragment"
+        tools:layout="@layout/state_listing_fragment"
+        android:label="stateListFragment" >
+        <action
+            android:id="@+id/stateListToStateDetails"
+            app:destination="@id/stateListDetailsFragment"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/stateListDetailsFragment"
+        android:label="stateListDetailsFragment"
+        android:name="com.tcs.task.views.feature.StateDetailsFragment"
+        tools:layout="@layout/state_details_fragment">
+        <argument
+            android:name="stateDetails"
+            android:defaultValue="@null"
+            app:argType="com.tcs.task.model.State"
+            app:nullable="true" />
+    </fragment>
+
+</navigation>

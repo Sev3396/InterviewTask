@@ -5,7 +5,7 @@ import com.tcs.task.R
 import com.tcs.task.base.BaseActivity
 import javax.inject.Inject
 
-class TaskActivity: BaseActivity<TaskViewModel>(), TaskNavigator {
+class TaskActivity: BaseActivity<TaskViewModel>() {
 
     @Inject
     lateinit var taskViewModel: TaskViewModel
@@ -17,8 +17,4 @@ class TaskActivity: BaseActivity<TaskViewModel>(), TaskNavigator {
 
     override val viewModel: TaskViewModel
         get() = taskViewModel
-
-    override fun setupViews() {
-
-    }
 }
